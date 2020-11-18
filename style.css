@@ -9,17 +9,15 @@ body {
     margin: 0;
     overflow-x: hidden;
     font-family: 'Josefin Sans', sans-serif;
-    color: #999ca0;
-    background: #1c92d2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #faf9f6;
 }
 
 .wrapper {
     position: relative;
     width: 1440px;
     height: 1379px;
-    margin-right: 50px;
+    margin: auto;
+    color: #999ca0;
 }
 
 
@@ -57,8 +55,6 @@ body {
 
 .app-store-btn {
     position: absolute;
-    width: 138.44px;
-    height: 46.28px;
     left: 100px;
     top: 531px;  
 }
@@ -70,8 +66,6 @@ body {
 
 .google-play-btn {
     position: absolute;
-    width: 156.19px;
-    height: 46.28px;
     left: 250px;
     top: 531px;
 }
@@ -83,8 +77,6 @@ body {
 
 .main-image-container {
     position: absolute;
-    width: 535.72px;
-    height: 309.27px;
     left: 600px;
     top: 229.73px;
 }
@@ -96,7 +88,7 @@ body {
 .profile-img {
     position: absolute;
     height: 444px;
-    left: 737px;
+    left: 697px;
     right: 479px;
     top: 686px;
 }
@@ -104,7 +96,7 @@ body {
 .order-img {
     position: absolute;
     height: 470px;
-    left: 479px;
+    left: 439px;
     right: 737px;
     top: 913px;
 }
@@ -112,7 +104,7 @@ body {
 .cart-img {
     position: absolute;
     height: 222px;
-    left: 221px;
+    left: 181px;
     right: 995px;
     top: 1157px;
 }
@@ -120,17 +112,19 @@ body {
 .home-img {
     position: absolute;
     height: 470px;
-    left: 995px;
+    left: 955px;
     right: 221px;
     top: 908px;
+
 }
 
 .product-img {
     position: absolute;
     height: 222px;
-    left: 737px;
+    left: 707px;
     right: 479px;
     top: 1157px;
+
 }
 
 /* Background Toggles */
@@ -154,24 +148,125 @@ body {
 
 .background-1 {
     /* background: url("./img/gradient.png") */
-  background: #74ebd5; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #74ebd5, #acb6e5); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #74ebd5, #acb6e5);
+    background: #ffefba;
+    background: -webkit-linear-gradient(to right, #ffffff, #ffefba);
+    background: linear-gradient(to right, #ffffff, #ffefba);  
+  
 }
 
 .background-2 {
     /* background: url("./img/particles.png") */
-    background: #22c1c3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #faf9f6;
+    background: -webkit-linear-gradient(to right,#f2fcfe, #7ab1cf);
+    background: linear-gradient(to right,  #f2fcfe, #7ab1cf);
 }
 
 .background-3 {
     /* background: url("./img/triangles.png") */
     background: #0B486B;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
+    background: -webkit-linear-gradient(to right, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
+
+@media screen and (max-width: 600px) {
+    body {
+      background: whitesmoke;
+    }
+  
+    .wrapper {
+      width: 90%;
+      height: 1100px;
+    }
+  
+    .brand-logo {
+      width: 150px;
+      left: 200px;
+    }
+  
+    .title {
+      left: 200px;
+      font-size: 3rem;
+      line-height: 57px;
+    }
+  
+    .text {
+      left: 200px;
+    }
+  
+    .app-store-btn {
+      left: 200px;
+    }
+  
+    .app-store-btn img {
+      width: 130px;
+      height: 45px;
+    }
+  
+    .google-play-btn {
+      left: 361.81px;
+    }
+  
+    .google-play-btn img {
+      width: 130px;
+      height: 45px;
+    }
+  
+    .main-image-container {
+      left: 683.28px;
+      top: 229.73px;
+    }
+  
+    .main-image-container img {
+      height: 230px;
+    }
+  
+    .profile-img {
+      height: 444px;
+      left: 537px;
+      right: 479px;
+      top: 900px;
+    }
+  
+    .orders-img {
+      height: 470px;
+      left: 279px;
+      right: 737px;
+      top: 1200px;
+    }
+  
+    .home-img {
+      height: 470px;
+      left: 795px;
+      right: 221px;
+      top: 1100px;
+    }
+  
+    .cart-img {
+      height: 222px;
+      left: 21px;
+      right: 995px;
+      top: 1300px;
+    }
+  
+    .product-img {
+      height: 222px;
+      left: 537px;
+      right: 479px;
+      top: 1300px;
+    }
+  
+    /* background toggles */
+    .background-toggles {
+      position: absolute;
+      right: -150px;
+      top: 70px;
+    }
+  
+    /* tag every child  */
+    .background-toggles > div {
+      height: 30px;
+      width: 30px;
+      margin-right: 15px;
+    }
+  }
