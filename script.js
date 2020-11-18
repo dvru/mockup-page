@@ -6,6 +6,7 @@ function changeBackground(number) {
   if (body.className) {
     previousBackground = body.className;
   }
+  
   // Reset background
   body.className = '';
   // If background already on, turn off, else turn on background
